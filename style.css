@@ -18,13 +18,13 @@
     background-color: maroon;
 }
 
-.sub-header {
+.subheader {
     grid-column:1/4;
     grid-row: 2/3;
     background-color: blue;
 }
 
-.top-column {
+.topcolumn {
     grid-column: 1/4;
     grid-row: 3/4;
     background-color: seagreen;
@@ -37,7 +37,7 @@
     background-color: purple;
 }
 
-.center-main {
+.centermain {
     grid-column: 2/3;
     grid-row: 4/5;
     background-color: tomato;
