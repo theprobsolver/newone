@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 5fr 0.7fr;
     grid-template-areas:    
-       "header header"
+       "header"
          "sidebar main"
             "footer footer"
 
@@ -13,38 +13,39 @@
 
 
 .header {
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row:1/2;
     background-color: maroon;
 }
 
 .sub-header {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-column:1/4;
+    grid-row: 2/3;
     background-color: blue;
 }
 
 .top-column {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-column: 1/4;
+    grid-row: 3/4;
     background-color: seagreen;
 }
 
+
 .sidebar {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-color: seagreen;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: purple;
 }
 
 .center-main {
     grid-column: 2/3;
-    grid-row: 2/3;
-    background-color: seagreen;
+    grid-row: 4/5;
+    background-color: tomato;
 }
 
 .footer {
-    grid-column: 1/8;
-    grid-row:3/4;
+    grid-column: 3/4;
+    grid-row:4/5;
     background-color: goldenrod;
 }
 
