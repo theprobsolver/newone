@@ -1,8 +1,8 @@
 .container {
 
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 5fr 0.7fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
     grid-template-areas:    
        "header"
          "sidebar main"
@@ -12,40 +12,52 @@
 }
 
 
-.header {
-    grid-column: 1/4;
+.logo {
+    grid-column: 1/3;
     grid-row:1/2;
     background-color: maroon;
 }
 
-.subheader {
-    grid-column:1/4;
-    grid-row: 2/3;
+.nav {
+    grid-column:3/5;
+    grid-row: 1/2;
     background-color: blue;
 }
 
-.topcolumn {
-    grid-column: 1/4;
-    grid-row: 3/4;
+.bakground {
+    grid-column: 1/2;
+    grid-row: 2/6;
     background-color: seagreen;
 }
 
 
-.sidebar {
-    grid-column: 1/2;
-    grid-row: 4/5;
+.grid {
+    grid-column: 2/5;
+    grid-row: 2/5;
     background-color: purple;
 }
 
-.centermain {
+.box1 {
     grid-column: 2/3;
-    grid-row: 4/5;
+    grid-row: 5/6;
+    background-color: lightblue;
+}
+
+.box2 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    background-color: blanchedalmond;
+}
+
+.box3 {
+    grid-column: 4/5;
+    grid-row: 5/6;
     background-color: tomato;
 }
 
 .footer {
-    grid-column: 3/4;
-    grid-row:4/5;
+    grid-column: 1/5;
+    grid-row: 6/7;
     background-color: goldenrod;
 }
 
