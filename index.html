@@ -1,54 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="stylesheet" href="style.css">
-    <title>Hockey</title>
-</head>
-<body>
-    <div class="container">
-         
-
-     <div class="logo">
-          <h1>logobox</h1> 
-     </div>
-     <div class="nav">
-     </div>
-          <h1>box</h1>
-     <div class="background">
-     </div>
-          <h1>box2</h1>
-     <div class="grid">
-     </div>
-          <h1>box3</h1>
-     <div class="box1">
-     </div>
-          <h1>box4</h1>
-     <div class="box2">
-     </div>
-          <h1>box5</h1>
-     <div class="box3">
-     </div>
-          <h1>box6</h1>
-     <div class="footer">
-     </div>
-          <h1>box7</h1>
-
-          
-          </div>
-</div>
-
-
-
-
-
-
-
-
+    <title>Stargate SG-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="openportalgate.png">
+    <link rel="stylesheet" href="styles.css">
 
     
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a onclick="showPage('home')" id="tab-home" class="active">Home and History</a>
+        <a onclick="showPage('story')" id="tab-story">The Top Team</a>
+        <a onclick="showPage('cast')" id="tab-cast">Cast</a>
+        <a onclick="showPage('recent')" id="tab-recent">Rules</a>
+    </nav>
+
+    <div class="page active" id="page-home">
+        <div class="l1-wrap">
+            <aside class="l1-sidebar">
+                <h2>Quick Facts:</h2>
+                <p>Created: 1823</p>
+                <p>Created Formally: 1845</p>
+                <p>Originally the Tri-Nations (1996–2011), it was rebranded to The Rugby Championship in 2012 with the inclusion of Argentina. With around 29 editions</p>
+            </aside>
+            <div class="l1-body">
+                <h1>Rugby</h1>
+                <img src="rubgy1.webp" alt="rugbyimage">
+                <p><b>Rugby</b> is a Intense <i>Sport.</i> It was thought to be made by <u>William Webb Ellis</u>,  a student at Rugby School in England. He defied traditional football/soccor by catching the ball and running with it.</p>
+               </p>Though many believe this to be just a myth, it's still entirely possible to have been done. With the first formal rules written in 1845, today. We have the real <b>RUGBY</b>
+                <p>Here are some info links:</p>
+                <p><a href="https://en.wikipedia.org/wiki/Rugby_football#History" target="">History</a></p>
+                <p><a href="https://en.wikipedia.org/wiki/William_Webb_Ellis" target="">Inventor Details</a></p>
+                <p><a href="https://www.world.rugby/rankings" target="">Rankings</a></p>
+            </div>
+            <aside class="l1-sidebar right">
+                <h2>Quick Links</h2>
+                <p><a href="https://en.wikipedia.org/wiki/Rugby_football#History" target="">History</a></p>
+                <p><a href="https://en.wikipedia.org/wiki/William_Webb_Ellis" target="">Inventor Details</a></p>
+                <p><a href="https://www.world.rugby/rankings" target="">Rankings</a></p>
+            </aside>
+        </div>
+        <footer class="site-footer">Rugby History</footer>
     </div>
+
+    <div class="page" id="page-story">
+        <div class="l2-wrap">
+            <aside class="l2-sidebar">
+                <h2>Quick Facts</h2>
+                <p>New Zealand and South Africa have been feuding over the top spot since 1921, fighting for over 100 years</p>
+                <p></p>
+            </aside>
+            <div class="l2-middle">
+                <div class="l2-box">
+                    <h2>Origins</h2>
+                    <p>Rugby has been played for hundreds of years with many great teams entering the fray, such as Ireland, France, and England.</p>
+                    <p>And yet, two teams remain the top player, since 100 years ago. Noneother than <b>South africa</b> and <b>New Zealand</b></p>
+                </div>
+                <div class="l2-box">
+                    <h2>The Rivalry</h2>
+                    <p>South Africa and New Zealand have been fighting for the top spot in rugby for over 100 years, with their intense rivalry beginning in 1921. This rivalry is widely considered the fiercest in rugby history, often described as a "war" or a "100-year battle".</p>
+                </div>
+            </div>
+            <div class="l2-body">
+                <h2>Story</h2>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ugh25tw9RFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Though New Zealand held the top spot for a while not too long ago, South Africa were still the Championchip trophy holders. </p>
+                <p>This is due to how despite losing the 2023 World Cup, New Zealand's consistently high performance in other tests (like winning the 2023 Rugby Championship earlier) kept their ranking points extremely high, sometimes allowing them to stay at #1 or return to it briefly even when South Africa was the reigning world champion.</p>
+                <p><img src="hockey.jpeg" alt=""></p>
+                <p> However based on recent rankings, South Africa (the Springboks) returned to the top spot solidly in the World Rugby rankings in September 2025</p>
+                <p><a href="https://www.youtube.com/shorts/gK8fpxNXxak?feature=share" target=""></a></p>
+            </div>
+        </div>
+        <footer class="site-footer">Team Info</footer>
+    </div>
+
+    <div class="page" id="page-cast">
+        <div class="l3-wrap">
+            <div class="l3-body">
+                <h1>Meet the Team</h1>
+                <img src="SG1.avif" alt="SG-1 Team">
+                <p>The <b>South African Springboks</b> Have 36-man squad with 14 Backups:</p>
+                <p>André Esterhuizen is the Centre.
+<br>
+Aphelele Fassi is the Fullback.
+<br>
+Asenathi Ntlabakanye is the Prop.
+<br>
+Ben-Jason Dixon is the Loose Forward.
+<br>
+Boan Venter is the Prop.
+<br>
+Bongi Mbonambi is the Hooker.
+<br>
+Canan Moodie is the Wing.
+<br>
+Cheslin Kolbe is the Wing.
+<br>
+Cobus Reinach is the Scrumhalf.
+<br>
+Cobus Wiese is the Lock.
+<br>
+Damian de Allende is the Centre.
+<br>
+Damian Willemse is the Fullback.
+<br>
+Eben Etzebeth is the Lock.
+<br>
+Edwill van der Merwe is the Wing.
+<br>
+Ethan Hooker is the Centre.
+<br>
+Evan Roos is the Loose Forward.
+<br>
+Faf de Klerk is the Scrumhalf.
+<br>
+Franco Mostert is the Lock.
+<br>
+Gerhard Steenekamp is the Prop.
+<br>
+Grant Williams is the Scrumhalf.
+<br>
+Handré Pollard is the Flyhalf.
+<br>
+Jan-Hendrik Wessels is the Hooker.
+<br>
+Jasper Wiese is the Loose Forward.
+<br>
+Jean Kleyn is the Lock.
+<br>
+Jean-Luc du Preez is the Loose Forward.
+<br>
+Jesse Kriel is the Centre.
+<br>
+Johan Grobbelaar is the Hooker.
+<br>
+Kurt-Lee Arendse is the Wing.
+<br>
+Kwagga Smith is the Loose Forward.
+<br>
+Lood de Jager is the Lock.
+<br>
+Makazole Mapimpi is the Wing.
+<br>
+Malcolm Marx is the Hooker.
+<br>
+Manie Libbok is the Flyhalf.
+<br>
+Marco van Staden is the Loose Forward.
+<br>
+Marnus van der Merwe is the Hooker.
+<br>
+Morne van den Berg is the Scrumhalf.
+<br>
+Neethling Fouche is the Prop.
+<br>
+Ox Nche is the Prop.
+<br>
+Pieter-Steph du Toit is the Loose Forward.
+<br>
+RG Snyman is the Lock.
+<br>
+Ruan Nortje is the Lock.
+<br>
+Sacha Feinberg-Mngomezulu is the Flyhalf.
+<br>
+Salmaan Moerat is the Lock.
+<br>
+Siya Kolisi is the Loose Forward.
+<br>
+Thomas du Toit is the Prop.
+<br>
+Vincent Koch is the Prop.
+<br>
+Vincent Tshituka is the Loose Forward.
+<br>
+Wilco Louw is the Prop.
+<br>
+Willie le Roux is the Fullback.
+<br>
+Zachary Porthen is the Prop.
+</p>
+                <p>These are the members of the Springboks Team.</p>
+            </div>
+            <div class="l3-right">
+                <div class="l3-col">
+                    <h2>Roles</h2>
+                    <p>Centre — Runs the ball in the midfield, makes tackles, and creates opportunities for the wingers.</p>
+                    <p>Fullback — Last line of defence, catches kicks, and joins attacks when needed.</p>
+                    <p>Prop — Front row of the scrum, does the heavy lifting and physicality up front.</p>
+                    <p>Loose Forward — Athletic forwards who carry the ball, make tackles, and link play between forwards and backs.</p>
+                    <p>Hooker — Middle of the front row, hooks the ball in scrums and throws in at lineouts.</p>
+                    <p>Wing — Wide players on the edge, usually the fastest on the team and finishes tries.</p>
+                    <p>Scrumhalf — The link between forwards and backs, feeds the scrum and distributes the ball quickly.</p>
+                    <p>Lock — Tall players in the second row of the scrum, win lineouts and provide power.</p>
+                    <p>Flyhalf — The playmaker, controls the game, kicks, passes, and decides how attacks are run.</p>
+                </div>
+                <div class="l3-col">
+                    <h2>Extra Links</h2>
+                    <p><a href="https://en.wikipedia.org/wiki/List_of_South_Africa_national_rugby_union_players" target="">Player info</a></p>
+                    <p><a href="https://www.sarugby.co.za/sa-teams-players/springboks/" target="">Main Player Bio</a></p>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer">Team Members</footer>
+    </div>
+
+    <div class="page" id="page-recent">
+        <div class="l4-wrap">
+            <div class="l4-header">
+                <div class="l4-header-text">
+                    <h2>Rules</h2>
+                    <p>MGM has recruited <b>Martin Gero</b> to be the executive producer for a brand new <b>Stargate series</b>.</p>
+                    <p></p>
+                </div>
+                <div class="l4-header-img">
+                    <img src="wowzagg.png" alt="">
+                </div>
+            </div>
+            <div class="l4-links">
+                <a href="https://youtu.be/3E1_QjwE08s" target="">Show Intro</a>
+                <a href="https://en.wikipedia.org/wiki/Stargate_SG-1" target="">SG-1 Wiki</a>
+                <a href="https://www.imdb.com/title/tt0118480" target="">IMDb</a>
+            </div>
+            <div class="l4-boxes">
+                <div class="l4-box">
+                    <h2>New Series</h2>
+                    <p>The new series has been getting a lot of hype since its announcement.</p>
+                </div>
+                <div class="l4-box">
+                    <h2>Fan Concerns</h2>
+                    <p>Many fans still fear what will become of the series due to the entertainment industry's recent struggles.</p>
+                </div>
+                <div class="l4-box">
+                    <h2>Thanks</h2>
+                    <p>Thanks for checking out my website. See ya!</p>
+                    <p><img src="Real.png" alt=""></p>
+                </div>
+            </div>
+            <br><br>
+            <p><a href="https://youtu.be/8Pc0AEbfnBM" target="" style="color: #1d1d1d;">.</a></p>
+        </div>
+        <footer class="site-footer">Stargate SG-1 Fan Site &mdash; Not affiliated with MGM.</footer>
+    </div>
+
+    <script>
+        function showPage(name) {
+            document.querySelectorAll('.page').forEach(function(p) {
+                p.classList.remove('active');
+            });
+            document.querySelectorAll('.navbar a').forEach(function(a) {
+                a.classList.remove('active');
+            });
+            document.getElementById('page-' + name).classList.add('active');
+            document.getElementById('tab-' + name).classList.add('active');
+        }
+    </script>
 
 </body>
 </html>
